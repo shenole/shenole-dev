@@ -366,10 +366,23 @@ ul#social-media li i {
 .workflow-div {
 	position: absolute;
 	left: 24%;
-	bottom: 0;
+	bottom: 0px;
 	z-index: 50;
 	width: 600px;
-	height: 650px;
+	height: 700px;
 	background: #ffffff;
 	box-shadow: 24px -1px 44px rgba(0, 0, 0, .6)
+}
+
+/* .workflow-div.visible {
+	bottom: 0;
+} */
+
+#workflow-pic {
+	width: 560px;
+	height: 275px;
+	background: url(../images/about-bg4.jpg) no-repeat center;
+	background-size: cover;
+	margin: auto;
+	border: solid 1px #f2f2f2;
 }
