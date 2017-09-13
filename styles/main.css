@@ -64,6 +64,7 @@ h1.site-title {
 	word-spacing: 2.175rem;
 	font-size: 1.75rem;
 	color: #ffffff;
+	text-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
 }
 
 h3.footer-subtitle {
@@ -79,6 +80,25 @@ h3.footer-subtitle {
 	color: #ffffff;
 	text-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
 }
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-align: center;
+	word-spacing: .5rem;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	margin-top: 7px;
+	text-align: center;
+	word-spacing: .3rem;
+}
+
+/* ========== GRID (About Me page) ========== */
 
 /* ========== MAIN ========== */
 
@@ -190,3 +210,74 @@ footer#home-footer {
 	
 }
 
+/* ========== ABOUT ME PAGE ========== */
+
+header#about-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.wrapper#about-page {
+	overflow: hidden;
+}
+
+.left {
+	width: 40%;
+	height: 50%;
+	float: left;
+}
+
+.left#top-div {
+	background: url(../images/about-bg1.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.left#bottom-div {
+	position: relative;
+	top: -50%;
+	background: url(../images/about-bg3.jpg) no-repeat center;
+	background-size: cover;
+}
+
+video {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+}
+
+.middle-big {
+	width: 40%;
+	height: 100%;
+	float: left;
+	background: url(../images/about-bg2.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.right-tall {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+#black-cap {
+	width: 100%;
+	height: 80px;
+	background: #000000;
+	margin-bottom: 40px;
+}
+
+#head-shot {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	background: url(../images/shenole01.jpg) no-repeat center;
+	background-size: cover;
+	border: solid 1px #f2f2f2;
+	border-radius: 50%;
+}
