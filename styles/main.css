@@ -90,6 +90,13 @@ h3.footer-subtitle {
 	text-shadow: 1px 2px 4px rgba(0, 0, 0, .7);
 }
 
+h3#project-heading {
+	margin-top: 50px;
+	margin-right: 0;
+	text-align: center;
+	color: #ffffff;
+}
+
 h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
@@ -114,7 +121,10 @@ p {
 	margin-left: 20px;
 	margin-bottom: 1.25rem;
 	margin-right: 20px;
+}
 
+p.project-description {
+	color: #ffffff;
 }
 
 p.button-text {
@@ -385,4 +395,57 @@ ul#social-media li i {
 	background-size: cover;
 	margin: auto;
 	border: solid 1px #f2f2f2;
+}
+
+/* ========== PROJECTS PAGE ========== */
+
+.wrapper#projects {
+	background: url(../images/bg02.jpg)fixed no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#upper-project-container {
+	width: 100%;
+	height: 55%;
+}
+
+.project-text-left {
+	position: absolute;
+	top: 25%;
+	left: 12%;
+	width: 420px;
+	height: 400px;
+	display: none;
+}
+
+.project-text-right {
+	position: absolute;
+	top: 25%;
+	right: 12%;
+	width: 420px;
+	height: 400px;
+	display: none;
+}
+
+.show-description {
+	display: block;
+}
+
+#lower-project-container{
+	width: 100%;
+	height: 45%;
+}
+
+.project-col {
+	width: 25%;
+	margin-top: 20px;
+	text-align: center;
+	float: left;
+}
+
+img {
+	max-width: 100%;
+	box-shadow: 24px 17px 44px rgba(0, 0, 0, .7);
+	cursor: pointer;
 }
