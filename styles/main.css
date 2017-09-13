@@ -167,6 +167,7 @@ header {
 	width: 100%;
 	height: 30px;
 	padding: 10px 30px;
+	margin: 0;
 }
 
 /* ===== Navigation ===== */
@@ -259,7 +260,7 @@ header#about-header {
 }
 
 .wrapper#about-page {
-	overflow: hidden;
+	overflow: hidden !important;
 }
 
 .left {
