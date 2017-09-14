@@ -97,6 +97,10 @@ h3#project-heading {
 	color: #ffffff;
 }
 
+h3.white-h3 {
+	color: #ffffff;
+}
+
 h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
@@ -123,7 +127,7 @@ p {
 	margin-right: 20px;
 }
 
-p.project-description {
+p.white-text {
 	color: #ffffff;
 }
 
@@ -448,4 +452,22 @@ img {
 	max-width: 100%;
 	box-shadow: 24px 17px 44px rgba(0, 0, 0, .7);
 	cursor: pointer;
+}
+
+/* ========== CONTACT PAGE ========== */
+
+.wrapper#contact {
+	background: url(../images/bg3.jpg)fixed no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+#contact-container {
+	width: 30%;
+	padding: 100px;
+	float: right;
+}
+
+footer#contact-footer {
+	background: #000000;
 }
