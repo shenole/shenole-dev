@@ -212,10 +212,26 @@ header {
 nav {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 0px;
+	width: 0px;
 	padding-top: 75px;
-	background: #000099;
 	z-index: 10;
+	width: 0px;
+
+	-webkit-transition: background .65s, width .75s ease-in-out;
+	-moz-transition: background .65s, width .75s ease-in-out;
+	-o-transition: background .65s, width .75s ease-in-out;
+	transition: background .65s, width .75s ease-in-out;
+}
+
+nav.open {
+	background: rgba(0, 0, 0, 1);
+	width: 450px;
+
+	-webkit-transition: background .4s .2s, width .75s ease-out;
+	-moz-transition: background .4s .2s, width .75s ease-out;
+	-o-transition: background .4s .2s, width .75s ease-out;
+	transition: background .4s .2s, width .75s ease-out;
 }
 
 .burger-nav {
@@ -236,20 +252,29 @@ nav {
 }
 
 nav ul#main-nav {
-	display: none;
-	width: 0;
+	opacity: 0;
+
+	-webkit-transition: opacity .65s ease-in-out;
+	-moz-transition: opacity .65s ease-in-out;
+	-o-transition: opacity .65s ease-in-out;
+	transition: opacity .65s ease-in-out;
 }
 
-nav ul#main-nav.open {
-	display: block;
-	width: 450px;
+#main-nav.visible {
+	opacity: 1;
+
+	-webkit-transition: opacity .4s .2s ease-out;
+	-moz-transition: opacity .4s .2s ease-out;
+	-o-transition: opacity .4s .2s ease-out;
+	transition: opacity .4s .2s ease-out;
 }
 
 ul#main-nav li {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	padding: 25px 10px;
-	background: #000099;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	/*background: #000099;*/
 	border-bottom: #f2f2f2 solid 1px;
 }
 
@@ -260,7 +285,7 @@ ul#main-nav li a {
 }
 
 ul#main-nav li:hover {
-	background: #0066ff;
+	background: #663399;
 }
 
 /* ===== Footer ===== */
