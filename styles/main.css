@@ -140,6 +140,18 @@ p.button-text {
 	color: #ffffff;
 }
 
+/* ========== ANIMATIONS ========== */
+
+@keyframes swell {
+	0% {
+		background-size: 100%;
+	}
+
+	100% {
+		background-size: 125%;
+	}
+}
+
 /* ========== MAIN ========== */
 
 html, body {
@@ -262,6 +274,10 @@ footer {
 	background: url(../images/bg01.jpg)fixed no-repeat center;
 	background-size: cover;
 	overflow: hidden;
+	-webkit-animation: swell 20s linear forwards;
+	-moz-animation: swell 20s linear forwards;
+	-o-animation: swell 20s linear forwards;
+	animation: swell 20s linear forwards;
 }
 
 footer#home-footer {
@@ -327,6 +343,8 @@ video {
 	background: url(../images/about-bg2.jpg) no-repeat center;
 	background-size: cover;
 }
+
+
 
 .right-tall {
 	width: 100%;
@@ -460,6 +478,10 @@ img {
 	background: url(../images/bg3.jpg)fixed no-repeat center;
 	background-size: cover;
 	overflow: hidden;
+	-webkit-animation: swell 20s linear forwards;
+	-moz-animation: swell 20s linear forwards;
+	-o-animation: swell 20s linear forwards;
+	animation: swell 20s linear forwards;
 }
 
 #contact-container {
@@ -470,4 +492,8 @@ img {
 
 footer#contact-footer {
 	background: #000000;
+}
+
+a#email {
+	color: #ffffff;
 }
