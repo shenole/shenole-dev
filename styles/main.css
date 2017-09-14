@@ -152,6 +152,16 @@ p.button-text {
 	}
 }
 
+@keyframes rise {
+	0% {
+		height: 0;
+	}
+
+	100% {
+		height: 700px;
+	}
+}
+
 /* ========== MAIN ========== */
 
 html, body {
@@ -403,7 +413,8 @@ ul#social-media li i {
 	width: 600px;
 	height: 700px;
 	background: #ffffff;
-	box-shadow: 24px -1px 44px rgba(0, 0, 0, .6)
+	box-shadow: 24px -1px 44px rgba(0, 0, 0, .6);
+	animation: rise 1.5s .75s ease-in-out backwards;
 }
 
 /* .workflow-div.visible {
@@ -464,6 +475,20 @@ ul#social-media li i {
 	margin-top: 20px;
 	text-align: center;
 	float: left;
+
+	-webkit-transition: transform .4s;
+	-moz-transition: transform .4s;
+	-o-transition: transform .4s;
+	transition: transform .4s;
+}
+
+.project-col:hover {
+	transform: scale(1.1);
+
+	-webkit-transition: transform .4s;
+	-moz-transition: transform .4s;
+	-o-transition: transform .4s;
+	transition: transform .4s;
 }
 
 img {
@@ -478,10 +503,10 @@ img {
 	background: url(../images/bg3.jpg)fixed no-repeat center;
 	background-size: cover;
 	overflow: hidden;
-	-webkit-animation: swell 20s linear forwards;
-	-moz-animation: swell 20s linear forwards;
-	-o-animation: swell 20s linear forwards;
-	animation: swell 20s linear forwards;
+	-webkit-animation: swell 20s linear forwards reverse;
+	-moz-animation: swell 20s linear forwards reverse;
+	-o-animation: swell 20s linear forwards reverse;
+	animation: swell 20s linear forwards reverse;
 }
 
 #contact-container {
