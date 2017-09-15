@@ -182,7 +182,7 @@ p.button-text {
 	}
 }
 
-@-webit-keyframes rise {
+@-webkit-keyframes rise {
 	0% {
 		height: 0;
 	}
@@ -368,7 +368,11 @@ footer {
 	background: url(../images/bg01.jpg)fixed no-repeat center;
 	background-size: cover;
 	overflow: hidden;
-	-webkit-animation: swell 20s linear forwards;
+	-webkit-animation-name: swell;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+
 	-moz-animation: swell 20s linear forwards;
 	-o-animation: swell 20s linear forwards;
 	animation: swell 20s linear forwards;
@@ -587,10 +591,15 @@ img {
 	background: url(../images/bg3.jpg)fixed no-repeat center;
 	background-size: cover;
 	overflow: hidden;
-	-webkit-animation: swell 20s linear forwards reverse;
-	-moz-animation: swell 20s linear forwards reverse;
-	-o-animation: swell 20s linear forwards reverse;
-	animation: swell 20s linear forwards reverse;
+	-webkit-animation-name: swell;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-direction: reverse;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-fill-mode: forwards;
+
+	-moz-animation: swell 20s reverse linear forwards;
+	-o-animation: swell 20s reverse linear forwards;
+	animation: swell 20s reverse linear forwards;
 }
 
 #contact-container {
