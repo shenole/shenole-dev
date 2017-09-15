@@ -608,6 +608,10 @@ img {
 	float: right;
 }
 
+a#email {
+	color: #ffffff;
+}
+
 footer#contact-footer {
 	background: #000000;
 }
