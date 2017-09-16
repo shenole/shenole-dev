@@ -581,7 +581,7 @@ ul.tech-list li {
 }
 
 .project-text-left#proj-des3 {
-	
+	display: none;
 }
 
 .project-text-left#proj-des4 {
