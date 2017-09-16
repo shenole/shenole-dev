@@ -573,7 +573,7 @@ ul.tech-list li {
 }
 
 .project-text-left#proj-des1 {
-	
+	display: none;
 }
 
 .project-text-left#proj-des2 {
@@ -581,7 +581,7 @@ ul.tech-list li {
 }
 
 .project-text-left#proj-des3 {
-	display: none;
+	
 }
 
 .project-text-left#proj-des4 {
@@ -590,9 +590,9 @@ ul.tech-list li {
 
 .project-text-right {
 	position: absolute;
-	top: 25%;
-	right: 12%;
-	width: 420px;
+	top: 10%;
+	right: 4%;
+	width: 720px;
 	height: 400px;
 	display: none;
 }
