@@ -157,7 +157,11 @@ a#download-resume {
 	text-decoration: none;
 }
 
-a i.fa{
+a.view-live {
+	text-decoration: none;
+}
+
+a i.fa {
 	color: #000000;
 }
 
@@ -621,11 +625,38 @@ ul.tech-list li {
 	right: 4%;
 	width: 720px;
 	height: 400px;
+}
+
+.res-screen-shots {
+	position: relative;
+	width: 400px;
+	height: 252px;
+	top: 40%;
+	margin: auto;
+}
+
+.res-screen-shots#resp-proj-screen-one {
+	background: url(../images/project-one-resp.png)no-repeat center;
+	background-size: cover;
 	display: none;
 }
 
-.show {
-	display: block;
+.res-screen-shots#resp-proj-screen-two {
+	background: url(../images/project-two-resp.png)no-repeat center;
+	background-size: cover;
+	display: none;
+}
+
+.res-screen-shots#resp-proj-screen-three {
+	background: url(../images/project-three-resp.png)no-repeat center;
+	background-size: cover;
+	display: none;
+}
+
+.res-screen-shots#resp-proj-screen-four {
+	background: url(../images/project-four-resp.png)no-repeat center;
+	background-size: cover;
+	display: none;
 }
 
 #lower-project-container{
