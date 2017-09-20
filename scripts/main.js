@@ -14,16 +14,16 @@ If another project panel is visible, it is then hidden.*/
 
 var showProject = document.querySelectorAll('#lower-project-container .project-');
 var siteDescr = document.querySelectorAll('.project-text-left');
-var oldID = null;
+var oldId = null;
 
 (showProject).forEach(function(thumb) {
     thumb.addEventListener('click', function(e) {
         const project = document.querySelector('#proj-' + e.target.id);
-        if( oldID != null ) {
-           document.querySelector('#proj-'+ oldID).style.display = "none";
+        if( oldId != null ) {
+           document.querySelector('#proj-'+ oldId).style.display = "none";
         }
         project.style.display = 'block';
         //--- save current id
-        oldID = e.target.id;
+        oldId = e.target.id;
     });
 });
