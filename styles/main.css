@@ -437,10 +437,6 @@ footer {
 	animation: swell 20s linear forwards;
 }
 
-footer#home-footer {
-	
-}
-
 /* ========== ABOUT ME PAGE ========== */
 
 .wrapper#about-page {
@@ -776,3 +772,96 @@ footer#contact-footer {
 #f-right {
 	float: right;
 }
+
+/* ========== MEDIA QUERIES ========== */
+
+/* ----- Large Tablets ----- */
+
+@media only screen and (max-width: 1440px)
+and (orientation: landscape) {
+
+	/* ========== HOME PAGE ========== */
+
+	.wrapper#home {
+		background: url(../images/bg01-tablet-land.jpg)fixed no-repeat center;
+	}
+
+	/* ========== ABOUT PAGE ========== */
+
+	.col-div {
+		width: 37%;
+	}
+
+	#col-right {
+		width: 26%;
+	}
+
+	p {
+		margin-right: 40px;
+		margin-bottom: 30px;
+	}
+
+	p.button-text {
+		font-size: 1em;
+		margin: auto;
+	}
+
+	.workflow-div {
+		left: 20%;
+	}
+
+	/* ========= PROJECTS ========== */
+
+	.wrapper#projects {
+		background: url(../images/bg02-tablet-land.jpg)fixed no-repeat center;
+	}
+
+	.project-text-left {
+		top: 9%;
+		left: 1%;
+		width: 660px;
+		height: 490px;
+	}
+
+	p.white-text {
+		font-size: .8em;
+		margin-left: 20;
+		margin-right: 0;
+	}
+
+	.button02 {
+		margin-left: 20px;
+		margin-right: 0;
+	}
+
+	img {
+		max-width: 75%;
+	}
+
+	#lower-project-container{
+	position: absolute;
+	top: 70%;
+	height: 35%;
+}
+
+	.project-col {
+		margin-top: 10px;
+}
+
+	/* ========== CONTACT PAGE ========== */
+
+	.wrapper#contact {
+		background: url(../images/bg3-tablet-land.jpg)fixed no-repeat center;
+		background-size: cover;
+	}
+}
+
+
+
+
+
+	/*@media only screen and (max-width: 1024px)
+and (orientation: portrait) {
+	.wrapper#home {
+		background: url(../images/bg01-tablet-port.jpg)fixed no-repeat center;
+	}*/
