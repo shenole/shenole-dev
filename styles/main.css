@@ -765,17 +765,9 @@ footer#contact-footer {
 	height: 100%;
 }
 
-#f-left {
-	float: left;
-}
-
-#f-right {
-	float: right;
-}
-
 /* ========== MEDIA QUERIES ========== */
 
-/* ----- Large Tablets ----- */
+/* ----- Large Tablets (landscape) ----- */
 
 @media only screen and (max-width: 1440px)
 and (orientation: landscape) {
@@ -789,11 +781,16 @@ and (orientation: landscape) {
 	/* ========== ABOUT PAGE ========== */
 
 	.col-div {
-		width: 37%;
+		width: 36%;
 	}
 
 	#col-right {
-		width: 26%;
+		width: 28%;
+	}
+
+	#head-shot {
+		width: 170px;
+		height: 170px;
 	}
 
 	p {
@@ -819,7 +816,7 @@ and (orientation: landscape) {
 	.project-text-left {
 		top: 9%;
 		left: 1%;
-		width: 660px;
+		width: 874px;
 		height: 490px;
 	}
 
@@ -856,6 +853,114 @@ and (orientation: landscape) {
 	}
 }
 
+/* ----- Large Tablets (portrait) ----- */
+
+@media only screen and (max-width: 1024px)
+and (orientation: portrait) {
+
+	/* ----- Animations ----- */
+
+	@-webkit-keyframes rise-port {
+	0% {
+		height: 0;
+	}
+
+	100% {
+		height: 300px;
+	}
+}
+
+@-moz-keyframes rise-port {
+	0% {
+		height: 0;
+	}
+
+	100% {
+		height: 300px;
+	}
+}
+
+@-o-keyframes rise-port {
+	0% {
+		height: 0;
+	}
+
+	100% {
+		height: 300px;
+	}
+}
+
+@keyframes rise-port {
+	0% {
+		height: 0;
+	}
+
+	100% {
+		height: 300px;
+	}
+}
+
+	/* ========== HOME PAGE ========== */
+
+	.wrapper#home {
+		background: url(../images/bg01-tablet-port.jpg)fixed no-repeat center;
+	}
+
+	h1 {
+		letter-spacing: 1.5rem;
+		word-spacing: 2.175rem;
+		font-size: 1.75rem;
+	}
+
+	/* ========== ABOUT PAGE ========== */
+
+	.col-div {
+		width: 30%;
+	}
+
+	#col-right {
+		width: 40%;
+	}
+
+	.workflow-div {
+		left: 0;
+		width: 1024px;
+		height: 300px;
+		box-shadow: 0px -1px 64px rgba(0, 0, 0, .6);
+		animation: rise-port 1.5s 1s ease-out backwards;
+	}
+
+	.button01 {
+		margin-top: 80px;
+	}
+
+	/* ========= PROJECTS ========== */
+
+	h3#project-heading {
+		margin-top: 15px;
+	}
+
+	.project-col {
+		width: 50%;
+		margin-top: 20px;
+	}
+
+	img {
+		max-width: 78%;
+	}
+
+	/* ========== CONTACT PAGE ========== */
+
+	.wrapper#contact {
+		background: url(../images/bg3-tablet-port.jpg)fixed no-repeat center;
+	}
+
+	#contact-container {
+		position: relative;
+		top: 18%;
+	}
+
+}
 
 
 
