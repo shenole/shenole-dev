@@ -286,15 +286,6 @@ html, body {
 	height: 100%;
 }
 
-/*.overlay {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 1);
-}*/
-
 .button01 {
 	width: 250px;
 	height: 50px;
@@ -419,10 +410,6 @@ footer {
 
 /* ========== HOME PAGE ========== */
 
-/*.overlay#home-overlay {
-	background: rgba(0, 0, 0, 1);	
-}*/
-
 .wrapper#home {
 	background: url(../images/bg01.jpg)fixed no-repeat center;
 	background-size: cover;
@@ -477,17 +464,6 @@ header#about-header {
 	background: url(../images/about-bg3.jpg) no-repeat center;
 	background-size: cover;
 }
-
-/*video {
-	position: relative;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-}*/
 
 .middle-big {
 	width: 100%;
@@ -559,10 +535,6 @@ ul#social-media li i {
 	box-shadow: 24px -1px 44px rgba(0, 0, 0, .6);
 	animation: rise 1.5s 1s ease-out backwards;
 }
-
-/* .workflow-div.visible {
-	bottom: 0;
-} */
 
 #workflow-pic {
 	width: 560px;
@@ -767,7 +739,7 @@ footer#contact-footer {
 
 /* ========== MEDIA QUERIES ========== */
 
-/* ----- Large Tablets (landscape) ----- */
+/* ----- X-Large Tablets (landscape) ----- */
 
 @media only screen and (max-width: 1440px)
 and (orientation: landscape) {
@@ -853,7 +825,7 @@ and (orientation: landscape) {
 	}
 }
 
-/* ----- Large Tablets (portrait) ----- */
+/* ----- X-Large Tablets (portrait) ----- */
 
 @media only screen and (max-width: 1024px)
 and (orientation: portrait) {
@@ -861,44 +833,44 @@ and (orientation: portrait) {
 	/* ----- Animations ----- */
 
 	@-webkit-keyframes rise-port {
-	0% {
-		height: 0;
+		0% {
+			height: 0;
+		}
+
+		100% {
+			height: 300px;
+		}
 	}
 
-	100% {
-		height: 300px;
-	}
-}
+	@-moz-keyframes rise-port {
+		0% {
+			height: 0;
+		}
 
-@-moz-keyframes rise-port {
-	0% {
-		height: 0;
-	}
-
-	100% {
-		height: 300px;
-	}
-}
-
-@-o-keyframes rise-port {
-	0% {
-		height: 0;
+		100% {
+			height: 300px;
+		}
 	}
 
-	100% {
-		height: 300px;
-	}
-}
+	@-o-keyframes rise-port {
+		0% {
+			height: 0;
+		}
 
-@keyframes rise-port {
-	0% {
-		height: 0;
+		100% {
+			height: 300px;
+		}
 	}
 
-	100% {
-		height: 300px;
+	@keyframes rise-port {
+		0% {
+			height: 0;
+		}
+
+		100% {
+			height: 300px;
+		}
 	}
-}
 
 	/* ========== HOME PAGE ========== */
 
@@ -962,11 +934,158 @@ and (orientation: portrait) {
 
 }
 
+/* ----- Large Tablets (landscape) ----- */
 
+@media only screen and (max-width: 1280px)
+and (orientation: landscape) {
 
+	/* ----- Animations ----- */
 
-	/*@media only screen and (max-width: 1024px)
+	@-webkit-keyframes rise-large-land {
+		0% {
+			height: 0;
+		}
+
+		100% {
+			height: 625px;
+		}
+	}
+
+	@-moz-keyframes rise-large-land {
+		0% {
+			height: 0;
+		}
+
+		100% {
+			height: 625px;
+		}
+	}
+
+	@-o-keyframes rise-large-land {
+		0% {
+			height: 0;
+		}
+
+		100% {
+			height: 625px;
+		}
+	}
+
+	@keyframes rise-large-land {
+		0% {
+			height: 0;
+		}
+
+		100% {
+			height: 625px;
+		}
+	}
+
+	/* ========== HOME PAGE ========== */
+
+	nav.open {
+		width: 375px;
+	}
+
+	h1.site-title {
+		letter-spacing: 1.1rem;
+		word-spacing: 1.9rem;
+		font-size: 1.25rem;
+	}
+
+	h3.footer-subtitle {
+		letter-spacing: .65rem;
+		word-spacing: 1.2rem;
+		font-size: .9rem;
+	}
+
+	/* ========== ABOUT PAGE ========== */
+
+	h3 {
+		font-size: 1.75rem;
+		word-spacing: .25rem;	
+	}
+
+	p {
+		font-size: .8rem;
+		line-height: 1.15rem;
+		margin-left: 20px;
+		margin-bottom: 1rem;
+		margin-right: 20px;
+	}
+
+	.workflow-div {
+		left: 20;
+		width: 600px;
+		height: 625px;
+		box-shadow: 0px -1px 64px rgba(0, 0, 0, .6);
+		animation: rise-large-land 1.5s 1s ease-out backwards;
+	}
+
+	/* ========== PROJECTS PAGE ========== */
+
+		#lower-project-container {
+			position: absolute;
+			top: 68%;
+			height: 35%;
+		}
+
+	/* ========== PROJECTS PAGE ========== */
+
+		.wrapper#contact {
+			background: url(../images/bg3-tablet-land02.jpg)fixed no-repeat center;
+		}
+}
+
+/* ----- Large Tablets (portrait) ----- */
+
+@media only screen and (max-width: 800px)
 and (orientation: portrait) {
+
+	/* ========== HOME PAGE ========== */
 	.wrapper#home {
-		background: url(../images/bg01-tablet-port.jpg)fixed no-repeat center;
-	}*/
+		background: url(../images/bg01-tablet-port02.jpg)fixed no-repeat center;
+	}
+
+	h1.site-title {
+		letter-spacing: 1.1rem;
+		word-spacing: 1.9rem;
+		font-size: 1.15rem;
+	}
+
+	h3.footer-subtitle {
+		letter-spacing: .65rem;
+		word-spacing: 1.2rem;
+		font-size: .9rem;
+	}
+
+	/* ========== ABOUT PAGE ========== */
+
+	.wrapper#home {
+		background: url(../images/bg01-tablet-port02.jpg)fixed no-repeat center;
+	}
+
+	#head-shot {
+		width: 140px;
+		height: 140px;
+	}
+
+	.button01 {
+		margin-top: 40px;
+	}
+
+	/* ========== CONTACT PAGE ========== */
+
+	.wrapper#contact {
+		background: url(../images/bg3-tablet-port02.jpg)fixed no-repeat center;
+	}
+
+	#contact-container {
+		width: 40%;
+		padding: 40px;
+	}
+
+	ul#social-media {
+		width: 70%;
+	}
+}
