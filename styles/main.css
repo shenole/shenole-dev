@@ -1186,3 +1186,19 @@ and (orientation: portrait) {
 		max-width: 50%;
 	}
 }
+
+/* ----- Large Tablets (portrait) ----- */
+
+@media only screen and (max-width: 800px)
+and (orientation: landscape) {
+
+	nav.open {
+		width: 260px;
+	}
+
+	ul#main-nav li {
+		padding-top: 12px;
+		padding-bottom: 12px;
+}
+
+	/* ========== CONTACT PAGE ========== */
