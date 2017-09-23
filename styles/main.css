@@ -1256,6 +1256,25 @@ and (orientation: landscape) {
 
 	/* ========== PROJECT PAGE ========== */
 
+	.wrapper#projects {
+		background: url(../images/bg02-phone-land.jpg)fixed no-repeat center;
+	}
+
+	.wrapper#projects {
+	}
+
+	.upper-project-container {
+		display: none;
+	}
+
+	.lower-project-container {
+	}
+
+	.project-col {
+		width: 100%;
+		background: rgba(0, 0, 0, 0);
+	}
+
 	/* ========== CONTACT PAGE ========== */
 
 	.wrapper#contact {
