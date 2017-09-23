@@ -648,6 +648,10 @@ ul.tech-list li {
 	height: 45%;
 }
 
+.mobile-view-project {
+	display: none;
+}
+
 .project-col {
 	width: 25%;
 	margin-top: 20px;
@@ -1234,15 +1238,27 @@ and (orientation: landscape) {
 
 	.workflow-div {
 		display: none;
-		/*left: 12%;
-		width: 575px;
-		height: 625px;
-		bottom: -625px;
+	}
 
-		-webkit-animation: none !important;
-    	-moz-animation: none !important;
-    	-o-animation: none !important;
-    	-ms-animation: none !important;
-    	animation: none !important;*/
+	/* ========== PROJECT PAGE ========== */
+
+	/* ========== CONTACT PAGE ========== */
+
+	.wrapper#contact {
+		background: url(../images/bg3-phone-land.jpg)fixed no-repeat center;
+	}
+
+	#contact-container {
+		width: 40%;
+		padding: 10px;
+		margin-right: 30px;
+	}
+
+	.text-container {
+		margin-bottom: 7px;
+	}
+
+	ul#social-media-contact {
+		margin-top: 8px;
 	}
 }
