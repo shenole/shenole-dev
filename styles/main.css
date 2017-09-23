@@ -524,6 +524,10 @@ ul#social-media li i {
 	padding-top: 20px;
 }
 
+#workflow-text {
+	display: none;
+}
+
 .workflow-div {
 	position: absolute;
 	left: 24%;
@@ -1187,10 +1191,14 @@ and (orientation: portrait) {
 	}
 }
 
-/* ----- Large Tablets (portrait) ----- */
+/* ----- Large Phones (landscape) ----- */
 
 @media only screen and (max-width: 800px)
 and (orientation: landscape) {
+
+	body {
+		overflow: auto;
+	}
 
 	nav.open {
 		width: 260px;
@@ -1199,6 +1207,41 @@ and (orientation: landscape) {
 	ul#main-nav li {
 		padding-top: 12px;
 		padding-bottom: 12px;
-}
+	}
 
-	/* ========== CONTACT PAGE ========== */
+	/* ========== ABOUT PAGE ========== */
+
+	.col-div {
+		display: none;
+	}
+
+	#col-right {
+		width: 100%;
+	}
+
+	#black-cap {
+		height: 70px;
+	}
+
+	.text-container {
+		margin-bottom: 36px;
+	}
+
+	#workflow-text {
+		display: block;
+	}
+
+	.workflow-div {
+		display: none;
+		/*left: 12%;
+		width: 575px;
+		height: 625px;
+		bottom: -625px;
+
+		-webkit-animation: none !important;
+    	-moz-animation: none !important;
+    	-o-animation: none !important;
+    	-ms-animation: none !important;
+    	animation: none !important;*/
+	}
+}
