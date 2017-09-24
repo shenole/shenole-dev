@@ -1242,7 +1242,7 @@ and (orientation: landscape) {
 
 	/* ========== PROJECT PAGE ========== */
 
-	.wrapper#projects {
+	/*.wrapper#projects {
 		background: url(../images/bg02-phone-land.jpg)fixed no-repeat center;
 	}
 
@@ -1258,7 +1258,7 @@ and (orientation: landscape) {
 
 	.project-col {
 		width: 100%;
-	}
+	}*/
 
 	/* ========== CONTACT PAGE ========== */
 
