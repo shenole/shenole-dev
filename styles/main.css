@@ -778,10 +778,9 @@ and (orientation: landscape) {
 	}
 
 	.project-text-left {
-		top: 9%;
-		left: 15%;
-		width: 874px;
-		height: 490px;
+		top: 4%;
+		left: 10%;
+		width: 80%;
 	}
 
 	p.white-text {
@@ -905,7 +904,24 @@ and (orientation: portrait) {
 	}
 
 	img.project- {
-		max-width: 78%;
+		max-width: 90%;
+	}
+
+	.left-project-container {
+		width: 35%;
+	}
+
+	.right-project-container {
+		width: 65%;
+	}
+
+	.project-text-left {
+		position: relative;
+		top: 15%;
+		left: 3%;
+		width: 47%;
+		margin-right: 0;
+		border-radius: 12px;
 	}
 
 	/* ========== CONTACT PAGE ========== */
@@ -1011,16 +1027,21 @@ and (orientation: landscape) {
 
 	/* ========== PROJECTS PAGE ========== */
 
-		#lower-project-container {
-			position: absolute;
-			top: 68%;
-			height: 35%;
-		}
-
-	/* ========== PROJECTS PAGE ========== */
-
 		.wrapper#contact {
 			background: url(../images/bg3-tablet-land02.jpg)fixed no-repeat center;
+		}
+}
+
+		.project-text-left {
+			top: 2%;
+			left: 5%;
+			width: 88%;
+			padding: 11px;
+		}
+
+		img.res-screen-shots {
+			max-width: 70%;
+			max-height: 70%;
 		}
 }
 
