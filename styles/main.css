@@ -610,10 +610,6 @@ ul.tech-list li {
 	display: none;
 }
 
-.active {
-	display: block;
-}
-
 .project-text-right {
 	position: absolute;
 	top: 10%;
@@ -626,34 +622,6 @@ ul.tech-list li {
 	position: relative;
 	width: 375px;
 	height: 225px;
-}
-
-/*.res-screen-shots#resp-proj-des1 {
-	background: url(../images/project-one-resp.png)no-repeat center;
-	background-size: cover;
-	display: none;
-}*/
-
-.res-screen-shots#resp-proj-des2 {
-	background: url(../images/project-two-resp.png)no-repeat center;
-	background-size: cover;
-	display: none;
-}
-
-.res-screen-shots#resp-proj-des3 {
-	background: url(../images/project-three-resp.png)no-repeat center;
-	background-size: cover;
-	display: none;
-}
-
-.res-screen-shots#resp-proj-des4 {
-	background: url(../images/project-four-resp.png)no-repeat center;
-	background-size: cover;
-	display: none;
-}
-
-.display {
-	display: block;
 }
 
 .mobile-view-project {
