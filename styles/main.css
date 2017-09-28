@@ -1296,3 +1296,166 @@ and (orientation: landscape) {
 		margin-top: 8px;
 	}
 }
+
+	/* ----- Large Phones (portrait) ----- */
+
+@media only screen and (max-width: 420px)
+and (orientation: portrait) {
+
+	header {
+		z-index: 9;
+		margin-top: 10px;
+	}
+
+	h1.site-title {
+		letter-spacing: .7rem;
+		word-spacing: 1rem;
+		font-size: .8rem
+	}
+
+	h3 {
+		font-size: 1.3rem;
+		word-spacing: .2rem;	
+	}
+
+	h3.footer-subtitle {
+		letter-spacing: .45rem;
+		word-spacing: .9rem;
+		font-size: .7rem;
+	}
+
+	p {
+		font-size: .85rem;
+		line-height: 1.1rem;
+		margin-left: 10px;
+		margin-bottom: 1rem;
+		margin-right: 10px;
+	}
+
+	.burger-nav {
+		position: absolute;
+		top: 10px;
+		right: 15px;
+		width: 43px;
+		height: 43px;
+	}
+
+		nav.open {
+		width: 260px;
+	}
+
+	/* ========== HOME PAGE ========== */
+
+	.wrapper#home {
+		background: url(../images/bg01-phone-port.jpg)fixed no-repeat center;
+	}
+
+
+	/* ========== ABOUT PAGE ========== */
+
+	.col-div {
+		display: none;
+	}
+
+	#col-right {
+		width: 100%;
+	}
+
+	#right-header {
+		position: fixed;
+		display: block;
+	}
+
+	#black-cap {
+		height: 70px;
+	}
+
+	.text-container {
+		margin-bottom: 36px;
+	}
+
+	#workflow-text {
+		display: block;
+	}
+
+	.workflow-div {
+		display: none;
+	}
+
+	/* ========== PROJECTS PAGE ========== */
+
+	/* ========== CONTACT PAGE ========== */
+
+	.wrapper#contact {
+		background: url(../images/bg3-phone-port.jpg)fixed no-repeat center;
+	}
+
+	#contact-container {
+		width: 50%;
+		padding: 10px;
+		margin-right: 0px;
+	}
+
+	.text-container {
+		margin-bottom: 7px;
+	}
+
+	ul#social-media-contact {
+		width: 100%;
+		margin-top: 8px;
+		margin-right: 0;
+	}
+
+	.sub-footer {
+		top: 87%;
+	}
+
+}
+
+	/* ----- Standard Phones (portrait) ----- */
+
+@media only screen and (max-width: 380px)
+and (orientation: portrait) {
+
+	h1.site-title {
+		letter-spacing: .6rem;
+		word-spacing: .75rem;
+		font-size: .65rem
+	}
+
+	h3 {
+		font-size: 1.3rem;
+		word-spacing: .2rem;	
+	}
+
+	h3.footer-subtitle {
+		letter-spacing: .35rem;
+		word-spacing: .75rem;
+		font-size: .65rem;
+		text-align: center;
+	}
+
+	h6 {
+		display: none;
+	}
+
+	p {
+		font-size: .85rem;
+		line-height: 1.1rem;
+		margin-left: 10px;
+		margin-bottom: 1rem;
+		margin-right: 10px;
+	}
+
+	.burger-nav {
+		position: absolute;
+		top: 10px;
+		right: 15px;
+		width: 43px;
+		height: 43px;
+	}
+
+	/* ========== HOME PAGE ========== */
+
+
+}
