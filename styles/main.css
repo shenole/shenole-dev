@@ -595,9 +595,11 @@ ul.tech-list li {
 .project-text-left {
 	position: relative;
 	top: 4%;
-	left: 40%;
-	width: 800px;
-	height: 400px;
+	left: 20%;
+	width: 75%;
+	padding: 20px;
+	background: rgba(0, 0, 0, .7);
+	border-radius: 20px;
 }
 
 .project-text-left#proj-des1 {
@@ -777,7 +779,7 @@ and (orientation: landscape) {
 
 	.project-text-left {
 		top: 9%;
-		left: 1%;
+		left: 15%;
 		width: 874px;
 		height: 490px;
 	}
@@ -797,15 +799,10 @@ and (orientation: landscape) {
 		max-width: 75%;
 	}
 
-	#lower-project-container{
-	position: absolute;
-	top: 70%;
-	height: 35%;
-}
-
 	.project-col {
 		margin-top: 10px;
-}
+		margin-bottom: 60px;
+	}
 
 	/* ========== CONTACT PAGE ========== */
 
@@ -903,11 +900,11 @@ and (orientation: portrait) {
 	}
 
 	.project-col {
-		width: 50%;
-		margin-top: 20px;
+		width: 100%;
+		margin-top: 60px;
 	}
 
-	img {
+	img.project- {
 		max-width: 78%;
 	}
 
