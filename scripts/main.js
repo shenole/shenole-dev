@@ -12,7 +12,7 @@ document.querySelector('.burger-nav').addEventListener('click', function() {
 /*Project panels are visible on click, but 
 If another project panel is visible, it is then hidden.*/
 
-var showProject = document.querySelectorAll('#lower-project-container .project-');
+var showProject = document.querySelectorAll('.left-project-container .project-');
 var siteDescr = document.querySelectorAll('.project-text-left');
 var oldId = null;
 
