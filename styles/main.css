@@ -559,6 +559,14 @@ ul#social-media li i {
 	overflow: hidden;
 }
 
+#mobile-view {
+	display: none;
+}
+
+.phone {
+	display: none;
+}
+
 .left-project-container{
 	width: 20%;
 	height: 100%;
@@ -1251,23 +1259,38 @@ and (orientation: landscape) {
 
 	/* ========== PROJECT PAGE ========== */
 
-	/*.wrapper#projects {
-		background: url(../images/bg02-phone-land.jpg)fixed no-repeat center;
-	}
-
 	.wrapper#projects {
+		background: url(../images/bg02-phone-land.jpg)fixed no-repeat cenoverflow-y: visible;ter;
+		overflow-y: visible;
 	}
 
-	.upper-project-container {
+	.left-project-container {
+		width: 100%;
+		float:none;
 		display: none;
 	}
 
-	.lower-project-container {
+	.right-project-container {
+		width: 100%;
+		float: none;
+		display: none;
 	}
 
 	.project-col {
 		width: 100%;
-	}*/
+	}
+
+	#mobile-view {
+		display: block;
+	}
+
+	.lgscrn {
+		display: none;
+	}
+
+	.phone {
+		display: block;
+	}
 
 	/* ========== CONTACT PAGE ========== */
 
@@ -1375,7 +1398,45 @@ and (orientation: portrait) {
 		display: none;
 	}
 
-	/* ========== PROJECTS PAGE ========== */
+	/* ========== PROJECT PAGE ========== */
+
+	.wrapper#projects {
+		background: url(../images/bg02-phone-port.jpg)fixed no-repeat cenoverflow-y: visible;ter;
+		overflow-y: visible;
+	}
+
+	.left-project-container {
+		width: 100%;
+		float:none;
+		display: none;
+	}
+
+	.right-project-container {
+		width: 100%;
+		float: none;
+		display: none;
+	}
+
+	.project-col {
+		width: 100%;
+	}
+
+	#mobile-view {
+		display: block;
+	}
+
+	.lgscrn {
+		display: none;
+	}
+
+	.phone {
+		display: block;
+	}
+
+	img.project- {
+		margin-bottom: 15px;
+	}
+
 
 	/* ========== CONTACT PAGE ========== */
 
