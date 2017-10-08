@@ -161,12 +161,14 @@ p.button-text {
 	color: #ffffff;
 }
 
-a#download-resume {
+a {
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
+	color: #ffffff;
 }
 
-a.view-live {
-	text-decoration: none;
+a#email {
+	text-decoration: underline;
 }
 
 a i.fa {
@@ -298,17 +300,30 @@ html, body {
 }
 
 .button02 {
+	position: relative;
+	top: 0;
+	padding-top: 6px;
+	padding-bottom: 6px;
 	margin-left: 20px;
 	width: 116px;
 	background: #ff3300;
 	border-radius: 8px;
+	text-align: center;
+	float: left;
 }
 
 .button03 {
+	position: relative;
+	top: 0;
+	left: 240px;
 	margin-left: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 	width: 116px;
 	background: #ff3300;
 	border-radius: 8px;
+	text-align: center;
+	float: left;
 }
 
 .button01:hover, .button02:hover {
@@ -655,6 +670,12 @@ ul.tech-list li {
 	height: 400px;
 }
 
+.project-btn-container {
+	height: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .res-screen-shots {
 	position: relative;
 	width: 375px;
@@ -814,13 +835,18 @@ and (orientation: landscape) {
 
 	p.white-text {
 		font-size: .8em;
-		margin-left: 20;
-		margin-right: 0;
 	}
 
 	.button02 {
 		margin-left: 20px;
 		margin-right: 0;
+		width: 120px;
+	}
+
+	.button03 {
+		margin-left: 20px;
+		margin-right: 0;
+		width: 120px;
 	}
 
 	img {
