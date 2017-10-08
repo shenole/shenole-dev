@@ -146,6 +146,12 @@ p.white-text {
 	color: #ffffff;
 }
 
+p.white-text-two {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.4rem;
+	color: #ffffff;
+}
+
 p.button-text {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em;
@@ -586,6 +592,14 @@ ul.project-menu li {
 	width: 80%;
 	height: 100%;
 	float: right;
+}
+
+#intro-text {
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	width: 370px;
+	height: 50px;
 }
 
 ul.tech-list {
@@ -1508,8 +1522,3 @@ and (orientation: portrait) {
 		width: 43px;
 		height: 43px;
 	}
-
-	/* ========== HOME PAGE ========== */
-
-
-}
