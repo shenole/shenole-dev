@@ -15,6 +15,7 @@ If another project panel is visible, it is then hidden.*/
 var showProject = document.querySelectorAll('.left-project-container .project-');
 var siteDescr = document.querySelectorAll('.project-text-left');
 var introText = document.querySelector('#intro-text');
+var closeProject = document.querySelectorAll('.close-project-icon');
 var oldId = null;
 
 (showProject).forEach(function(thumb) {
