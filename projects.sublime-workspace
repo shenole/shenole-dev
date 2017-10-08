@@ -1,0 +1,351 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"tags",
+				"tagsArray"
+			],
+			[
+				"email",
+				"emailGreet"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 288.0,
+		"last_filter": "package ins",
+		"selected_items":
+		[
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package c",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"sass ",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/website-projects/hackzika/DMI/website/scripts/app.js",
+		"/C/website-projects/hackzika/DMI/website/styles/check-list.css",
+		"/C/website-projects/hackzika/DMI/website/styles/main.css",
+		"/C/website-projects/hackzika/DMI/website/check-list.html",
+		"/C/website-projects/hackzika/DMI/website/index.html",
+		"/C/website-projects/wakinghandsFinal-site/scripts/script.js",
+		"/C/website-projects/shenole_dev/website/shenole-dev/styles/main.css",
+		"/C/website-projects/hackzika/digital-mosquito-inspector/app/views/layouts/application.html.erb",
+		"/C/website-projects/hackzika/digital-mosquito-inspector/app/views/static_pages/checklist.html.erb",
+		"/C/website-projects/hackzika/digital-mosquito-inspector/app/assets/stylesheets/application.css",
+		"/C/website-projects/hackzika/digital-mosquito-inspector/app/assets/javascripts/application.js",
+		"/C/website-projects/hackzika/index.html",
+		"/C/website-projects/hackzika/main.css",
+		"/C/website-projects/hackzika/main.js",
+		"/C/website-projects/shenole_dev/website/shenole-dev/scripts/main.js",
+		"/C/website-projects/shenole_dev/website/shenole-dev/about-me.html",
+		"/C/website-projects/shenole_dev/website/shenole-dev/contact.html",
+		"/C/website-projects/shenole_dev/website/shenole-dev/index.html",
+		"/C/website-projects/shenole_dev/website/shenole-dev/projects.html",
+		"/C/Users/Shenole/Documents/UDEMY/JavaScript part 1/4-DOM-Pig-Game-Final/4-DOM-Pig-Game-Final/app.js",
+		"/C/HTML/JAVASCRIPT_PROJECTS/javascript6.js",
+		"/C/HTML/PRACTICE_PROJECTS/night_and_day/Website Files/index.html",
+		"/C/HTML/PRACTICE_PROJECTS/night_and_day/Website Files/styles/stylesheet.css",
+		"/C/website-projects/goodietreats/WEBSITE FILES/scripts/main.js",
+		"/C/website-projects/jayhuntdesigns/WEBSITE FILES/scripts/script.js",
+		"/C/website-projects/goldenglowsecurity/WEBSITE FILES/index.html",
+		"/C/website-projects/goldenglowsecurity/WEBSITE FILES/assets/js/main.js",
+		"/C/website-projects/renchworks/styles/stylesheet.css",
+		"/C/website-projects/shenole_dev/website/shenole-dev/scripts/contact.php",
+		"/C/website-projects/sm9-1/stylesheetHOME.css",
+		"/C/Users/Shenole/Documents/UDEMY/JavaScript part 1/4-DOM-Pig-Game/4-DOM-Pig-Game/app.js",
+		"/C/website-projects/sm9-1/index.html",
+		"/C/website-projects/wakinghandsFinal-site/styles/stylesheet.css",
+		"/C/website-projects/wakinghandsFinal-site/prepare.html",
+		"/C/website-projects/wakinghandsFinal-site/3-pillars.html",
+		"/C/website-projects/wakinghandsFinal-site/styles/stylesheet-3pillars.css",
+		"/C/website-projects/wakinghandsFinal-site/execute.html",
+		"/C/website-projects/wakinghandsFinal-site/scripts/script-execute-page.js",
+		"/C/website-projects/wakinghandsFinal-site/scripts/script-3pillars.js",
+		"/C/HTML/JAVASCRIPT_PROJECTS/javascript3.js",
+		"/C/HTML/JAVASCRIPT_PROJECTS/stylesheet_js3.css",
+		"/C/HTML/JAVASCRIPT_PROJECTS/hello3.html",
+		"/C/HTML/JAVASCRIPT_PROJECTS/hello4.html",
+		"/C/website-projects/wakinghandsFinal-site/scripts/script-execute-page-pics.js",
+		"/C/HTML/JAVASCRIPT_PROJECTS/stylesheet_js6.css",
+		"/C/HTML/JAVASCRIPT_PROJECTS/hello6.html",
+		"/C/Users/Shenole/Documents/UDEMY/JavaScript part 1/4-DOM-Pig-Game-Final/4-DOM-Pig-Game-Final/challenges.js",
+		"/C/website-projects/wakinghandsFinal-site/about.html",
+		"/C/website-projects/renchworks/index.html",
+		"/C/website-projects/goodietreats/WEBSITE FILES/media.html",
+		"/C/website-projects/raptureguns/WEBSITE FILES/shotguns.html",
+		"/C/website-projects/wakinghandsFinal-site/index.html",
+		"/C/website-projects/wakinghandsFinal-site/about-backup.html",
+		"/C/website-projects/jayhuntdesigns/WEBSITE FILES/styles/stylesheet.css",
+		"/C/website-projects/jayhuntdesigns/WEBSITE FILES/index.html",
+		"/C/website-projects/wakinghandsFinal-site/contact.html",
+		"/C/website-projects/wakinghandsFinal/index.html",
+		"/C/website-projects/wakinghandsFinal/contact.html",
+		"/C/website-projects/wakinghandsFinal/about.html",
+		"/C/website-projects/wakinghandsFinal/3-pillars.html",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/scripts/script.js",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/styles/stylesheet.css",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/styles/stylesheet-3pillars.css",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/index.html",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/about.html",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/3-pillars.html",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/contact.html",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/prepare.html",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/execute.html",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/video/Uptemp MIXXING - Mstr. Costanzo & Shodan Townsend.MP4",
+		"/C/Users/Shenole/Documents/UDEMY/JavaScript part 1/4-DOM-Pig-Game-Final/4-DOM-Pig-Game-Final/style.css",
+		"/C/Users/Shenole/Documents/UDEMY/JavaScript part 1/4-DOM-Pig-Game-Final/4-DOM-Pig-Game-Final/index.html",
+		"/C/HTML/STACK-OVERFLOW/so_1/all_night_long-2-09-09.mp3",
+		"/C/Users/Shenole/Documents/UDEMY/PSD to Responsive HTML5/css/style.css",
+		"/C/Users/Shenole/Documents/UDEMY/PSD to Responsive HTML5/index.html",
+		"/C/Users/Shenole/Documents/UDEMY/PSD to Responsive HTML5/js/main.js",
+		"/C/Users/Shenole/Documents/UDEMY/SASS/sass-project/scss/main.scss",
+		"/C/Users/Shenole/Documents/UDEMY/SASS/sass-project/index.html",
+		"/C/Users/Shenole/AppData/Roaming/Sublime Text 3/Packages/User/Builld to CSS Directory.sublime-build",
+		"/C/website-projects/SASS/style.scss",
+		"/C/website-projects/SASS/style.css",
+		"/C/website-projects/wakinghands/wakinghands.com-website.sublime-project",
+		"/C/website-projects/wakinghands/wakinghands.com-website.sublime-workspace",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/wakinghands.com-website.sublime-workspace",
+		"/C/website-projects/sm9-1/stylesheetHOME_TEST.css",
+		"/C/website-projects/goevangelist/WEBSITE FILES/styles/stylesheet.css",
+		"/C/website-projects/goevangelist/WEBSITE FILES/index.html",
+		"/C/HTML/STACK-OVERFLOW/so_1/stylesheet.css",
+		"/C/HTML/STACK-OVERFLOW/so_1/index.html",
+		"/C/website-projects/goevangelist/WEBSITE FILES/missions.html",
+		"/C/website-projects/goevangelist/WEBSITE FILES/contact.html",
+		"/C/website-projects/goevangelist/WEBSITE FILES/about.html",
+		"/C/website-projects/goevangelist/WEBSITE FILES/classes_and_events.html",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/images/about-01.jpg",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/stylesheet.css",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands.com/wakinghands-website",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands/index.html",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands/scripts/main.js",
+		"/C/Users/Shenole/Documents/GitHub/wakinghands/styles/stylesheet.css",
+		"/C/HTML/STACK-OVERFLOW/so_1/js1.js",
+		"/C/website-projects/renchworks/styles/stylesheetHOME.css",
+		"/C/HTML/javasite1/javasite1.js",
+		"/C/HTML/JAVASCRIPT_PROJECTS/javascript7.js",
+		"/C/HTML/JAVASCRIPT_PROJECTS/stylesheet7.css",
+		"/C/HTML/JAVASCRIPT_PROJECTS/hello7.html",
+		"/C/website-projects/wakinghands/WEBSITE FILES/index.html",
+		"/C/website-projects/wakinghands/WEBSITE FILES/styles/stylesheet.css",
+		"/C/website-projects/chi-ryu_jiujitsu/css/stylesheet_aboutpage.css",
+		"/C/website-projects/raptureguns/WEBSITE FILES/index.html",
+		"/C/website-projects/wakinghands/styles/stylesheet.css",
+		"/C/website-projects/wakinghands/index.html",
+		"/C/HTML/PRACTICE_PROJECTS/night_and_day/Website Files/script_main.js",
+		"/C/HTML/CSS - Animation Experiments/ex1-sky01/index.html",
+		"/C/HTML/CSS - Animation Experiments/index3.html",
+		"/C/HTML/CSS - Animation Experiments/stylesheet3.css",
+		"/C/website-projects/goodietreats/WEBSITE FILES/styles/stylesheet.css",
+		"/C/website-projects/jayhuntdesigns/WEBSITE FILES/media.html",
+		"/C/HTML/STACK-OVERFLOW/New folder/index.html",
+		"/C/HTML/JAVASCRIPT_PROJECTS/javascript5.js",
+		"/C/HTML/JAVASCRIPT_PROJECTS/hello5.html",
+		"/C/HTML/PRACTICE_PROJECTS/night_and_day/Website Files/stylesheet.css",
+		"/C/HTML/Template_experiments/EX3/index.html",
+		"/C/HTML/Template_experiments/EX3/stylesheet.css",
+		"/C/HTML/Template_experiments/EX3/javascript3.js",
+		"/C/website-projects/goodietreats/WEBSITE FILES/styles/stylesheet-about.css",
+		"/C/website-projects/goodietreats/WEBSITE FILES/styles/stylesheet-events.css",
+		"/C/website-projects/goodietreats/WEBSITE FILES/styles/stylesheet-media.css",
+		"/C/website-projects/goodietreats/WEBSITE FILES/styles/stylesheet-programs.css"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"C:\\Users\\Shenole\\Documents\\GitHub\\wakinghands.com\\images"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"homepage-pic.jpg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Builld to CSS Directory.sublime-build",
+	"project": "projects.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\HTML\\JAVASCRIPT_PROJECTS\\javascript3.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
