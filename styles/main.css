@@ -678,8 +678,8 @@ ul.tech-list li {
 
 .res-screen-shots {
 	position: relative;
-	width: 400px;
-	height: 250px;
+	width: 375px;
+	height: 225px;
 }
 
 .mobile-view-project {
@@ -851,7 +851,7 @@ and (orientation: landscape) {
 
 	.res-screen-shots {
 		width: 425px;
-		height: 275px;
+		height: 200px;
 	}
 
 	img {
@@ -968,19 +968,20 @@ and (orientation: portrait) {
 	}
 
 	.left-project-container {
-		margin-top: 15px;
+		margin-top: 115px;
 		width: 35%;
 	}
 
 	.right-project-container {
+		margin-top: 100px;
 		width: 65%;
 	}
 
 	.project-text-left {
 		position: relative;
-		top: 15%;
+		top: 2%;
 		left: 3%;
-		width: 47%;
+		width: 86%;
 		margin-right: 0;
 		border-radius: 12px;
 	}
@@ -1091,13 +1092,17 @@ and (orientation: landscape) {
 		.wrapper#contact {
 			background: url(../images/bg3-tablet-land02.jpg)fixed no-repeat center;
 		}
-}
 
 		.project-text-left {
 			top: 2%;
 			left: 5%;
 			width: 88%;
 			padding: 11px;
+		}
+
+		.res-screen-shots {
+			width: 325px;
+			height: 150px;
 		}
 
 }
@@ -1141,9 +1146,19 @@ and (orientation: portrait) {
 
 	/* ========== PROJECT PAGE ========== */
 
-	img.res-screen-shots {
+	.left-project-container {
+		margin-top: 25px;
+		width: 35%;
+	}
+
+	.right-project-container {
+		margin-top: 10px;
+		width: 65%;
+	}
+
+	.res-screen-shots {
 		width: 350px;
-		height: 150px;
+		height: 225px;
 	}
 
 	/* ========== CONTACT PAGE ========== */
@@ -1248,15 +1263,21 @@ and (orientation: portrait) {
 
 	/* ========== PROJECTS PAGE ========== */	
 
-	#lower-project-container {
-		position: absolute;
-		top: 67%;
-		height: 35%;
+	p.white-text {
+		margin-left: 0px;
+		margin-bottom: 1.25rem;
+		margin-right: 0px;
 	}
 
 	img {
 		max-width: 50%;
 	}
+
+	.res-screen-shots {
+		width: 450px;
+		height: 150px;
+	}
+
 }
 
 /* ----- Large Phones (landscape) ----- */
@@ -1468,6 +1489,13 @@ and (orientation: portrait) {
 	.text-container {
 		margin-bottom: 36px;
 	}
+
+	.button01 {
+	width: 250px;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 24px;
+}
 
 	#workflow-text {
 		display: block;
