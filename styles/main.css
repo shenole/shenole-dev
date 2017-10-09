@@ -315,7 +315,7 @@ html, body {
 .button03 {
 	position: relative;
 	top: 0;
-	left: 240px;
+	left: 142px;
 	margin-left: 20px;
 	padding-top: 6px;
 	padding-bottom: 6px;
@@ -678,8 +678,8 @@ ul.tech-list li {
 
 .res-screen-shots {
 	position: relative;
-	width: 525px;
-	height: 375px;
+	width: 400px;
+	height: 250px;
 }
 
 .mobile-view-project {
@@ -849,6 +849,11 @@ and (orientation: landscape) {
 		width: 120px;
 	}
 
+	.res-screen-shots {
+		width: 425px;
+		height: 275px;
+	}
+
 	img {
 		max-width: 75%;
 	}
@@ -959,10 +964,11 @@ and (orientation: portrait) {
 	}
 
 	img.project- {
-		max-width: 90%;
+		max-width: 80%;
 	}
 
 	.left-project-container {
+		margin-top: 15px;
 		width: 35%;
 	}
 
@@ -1094,10 +1100,6 @@ and (orientation: landscape) {
 			padding: 11px;
 		}
 
-		img.res-screen-shots {
-			max-width: 70%;
-			max-height: 70%;
-		}
 }
 
 /* ----- Large Tablets (portrait) ----- */
@@ -1135,6 +1137,13 @@ and (orientation: portrait) {
 
 	.button01 {
 		margin-top: 40px;
+	}
+
+	/* ========== PROJECT PAGE ========== */
+
+	img.res-screen-shots {
+		width: 350px;
+		height: 150px;
 	}
 
 	/* ========== CONTACT PAGE ========== */
@@ -1343,6 +1352,25 @@ and (orientation: landscape) {
 		display: block;
 	}
 
+	.project-btn-container {
+		width: 320px;
+		margin: auto;
+	}
+
+	.button02 {
+		padding-top: 6px;
+		padding-bottom: 6px;
+		margin-left: 0px;
+	}
+
+	.button03 {
+		left: 22%;
+		margin-left: 0px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		background: #ff3300;
+	}
+
 	/* ========== CONTACT PAGE ========== */
 
 	.wrapper#contact {
@@ -1490,6 +1518,25 @@ and (orientation: portrait) {
 
 	img.project- {
 		margin-bottom: 15px;
+	}
+
+	.project-btn-container {
+		width: 320px;
+		margin: auto;
+	}
+
+	.button02 {
+		padding-top: 6px;
+		padding-bottom: 6px;
+		margin-left: 0px;
+	}
+
+	.button03 {
+		left: 26%;
+		margin-left: 0px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		background: #ff3300;
 	}
 
 
