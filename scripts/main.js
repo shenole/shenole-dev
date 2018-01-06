@@ -21,7 +21,8 @@ var oldId = null;
 (showProject).forEach(function(thumb) {
     thumb.addEventListener('click', function(e) {
         introText.style.display = 'none';
-        const project = document.querySelector('#proj-' + e.target.id);
+        var project = document.querySelector('#proj-' + e.target.id);
+        //const project = document.querySelector('#proj-' + e.target.id);
         if( oldId != null ) {
            document.querySelector('#proj-'+ oldId).style.display = "none";
         }

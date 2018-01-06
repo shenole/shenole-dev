@@ -9,8 +9,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,7 +23,7 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -126,7 +126,7 @@ h5 {
 	word-spacing: .3rem;
 }
 
-h6 {	
+h6 {
 	font-family: 'Open Sans', sans-serif;
 	color: #ffffff;
 	text-align: center;
@@ -291,12 +291,13 @@ html, body {
 
 .button01 {
 	width: 250px;
-	height: 50px;
+	/*height: 50px;*/
 	background: #ff3300;
 	text-align: center;
 	border-radius: 16px;
 	margin: auto;
-	padding: 0;
+	padding: 22px 0px;
+	/*padding: 0;*/
 }
 
 .button02 {
@@ -1068,7 +1069,7 @@ and (orientation: landscape) {
 
 	h3 {
 		font-size: 1.75rem;
-		word-spacing: .25rem;	
+		word-spacing: .25rem;
 	}
 
 	p {
@@ -1186,7 +1187,7 @@ and (orientation: landscape) {
 		width: 300px;
 	}
 
-	/* ========== ABOUT PAGE ========== */	
+	/* ========== ABOUT PAGE ========== */
 
 	#head-shot {
 		width: 120px;
@@ -1252,7 +1253,7 @@ and (orientation: portrait) {
 		}
 	}
 
-	/* ========== ABOUT PAGE ========== */	
+	/* ========== ABOUT PAGE ========== */
 
 	.workflow-div {
 		left: 6%;
@@ -1261,7 +1262,7 @@ and (orientation: portrait) {
 		animation: rise-md-port 1.5s 1s ease-out backwards;
 	}
 
-	/* ========== PROJECTS PAGE ========== */	
+	/* ========== PROJECTS PAGE ========== */
 
 	p.white-text {
 		margin-left: 0px;
@@ -1431,7 +1432,7 @@ and (orientation: portrait) {
 
 	h3 {
 		font-size: 1.3rem;
-		word-spacing: .2rem;	
+		word-spacing: .2rem;
 	}
 
 	h3.footer-subtitle {
@@ -1609,7 +1610,7 @@ and (orientation: portrait) {
 
 	h3 {
 		font-size: 1.3rem;
-		word-spacing: .2rem;	
+		word-spacing: .2rem;
 	}
 
 	h3.footer-subtitle {

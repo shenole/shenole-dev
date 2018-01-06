@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+/* ========== Browser Reset ========== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    height: 100%;
+    background: url(../styles/images/bg5.jpg) fixed no-repeat center;
+    background-size: cover;
+}
+
+body {
+    height: 100%;
+}
+
+/* ========== Text Settings ========== */
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    color: #ffffff;
+    text-shadow: 3px 4px 7px #000000;
+    position: relative;
+    top: 75%;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75em;    color: #ffffff;
+    text-shadow: 3px 4px 7px #000000;
+    position: relative;
+    top: 50%;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-style: bold;    
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+p#home-page {
+    font-size: 1em;
+    font-style: italic;
+    color: #ffffff;
+    margin: 15px;
+    position: relative;
+    top: 30%;
+}
+
+p.quoteAuth {
+    text-align: center;
+    font-size: 1.25em;
+    color: #ffffff;
+    position: relative;
+    top: 33%;
+}
+
+p {
+    margin: 0 0 2em 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+span#ital {
+    font-style: italic;
+}
+
+
+
+/* ========== NAVIGATION ==========*/
+
+header {
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 16px #222222;
+    z-index: 2000;
+}
+
+.logoDiv {
+    width: 220px;
+    float: left;
+    text-align: center;
+}
+
+header img {
+
+}
+
+ul.nav {
+    list-style-type: none;
+    width: 700px;
+    margin: auto;
+}
+
+ul.nav li {
+    display: inline-block;
+    padding: 20px 27px;
+}
+
+ul.nav li a {
+    color: #000000;
+    font-size: 1em;
+
+}
+
+ul.nav li:hover {
+    background-color: #c884a2;
+}
+
+#text-block4 {
+    width: 65%;
+    background-color: rgba(151, 68, 105, 0.85);
+    padding: 25px;
+    position: relative;
+    top: 450px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;  
+    color: #ffffff;
+}
+
+#media-content {
+    width: 100%;
+    text-align: center;
+}
+
+iframe {
+    padding: 0px 10px 10px 10px;
+    width: 350px;
+    height: 197px;
+}
+
+img.example-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+#text-block4:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.one-third {
+    width: 21%;
+    float:left;
+    margin: 2%;
+    margin-top: 0;
+}
+
+img:hover {
+    opacity: .65;
+    transform: scale(1.05);
+}
+
+/* ========== MEDIA QUERIES ========== */
+
+    /* ---------- 1024px Wide (landscape) ---------- */
+
+    @media only screen 
+      and (max-width: 1024px)
+      and (orientation: landscape) {
+
+        ul.nav li {
+            display: inline-block;
+            padding: 20px 20px;
+        }
+
+        ul.nav li a {
+            color: #000000;
+            font-size: 1em;
+        }
+    }    
+
+    /* ---------- 1024px Wide (portrait) ---------- */
+
+    @media only screen 
+      and (max-width: 1024px)
+      and (orientation: portrait) {
+
+        html {
+            background: url(../styles/images/bg5-1024port.jpg) fixed no-repeat center;         
+        }
+
+        ul.nav li {
+            padding: 20px 20px;
+        }
+
+        ul.nav li a {
+            font-size: 1em;
+        }
+    }
+
+    /* ---------- 800px Wide (portrait) ---------- */
+
+    @media only screen
+      and (max-width: 800px)
+      and (orientation: portrait) {
+
+        .logoDiv {
+            width: 180px;
+            float: left;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .logoDiv img {
+            width: 150px;
+        }
+
+        ul.nav li {
+            padding: 20px 14px;
+        }
+
+        ul.nav li a {
+            font-size: .60em;
+        }
+
+    }
+
+/* ---------- 414px Wide (portrait) ---------- */
+
+    @media only screen 
+      and (max-width: 414px)
+      and (orientation: portrait) {
+
+        html {
+            background: url(../styles/images/bg5-420port.jpg) fixed no-repeat center;         
+        }
+
+        .burger-nav {
+            position: relative;
+            top: 2px;
+            left: 80%;
+            display: block;
+            height: 60px;
+            width: 75px;
+            background: url("images/burger-menu009b.png") no-repeat center;
+            background-size: 55%;
+            z-index: 3000;
+        }
+
+        header ul {
+            width: 100%;
+        }
+
+        ul {
+            overflow: hidden;
+            background-color: #f2f2f2;
+            height: 0;
+            z-index: 2000;
+
+            -webkit-transition: height .4s;
+            -moz-transition: height .4s;
+            -o-transition: height .4s;
+            transition: height .4s;
+        }
+
+        ul.open {
+            height: 380px;
+        }
+
+        ul li {
+            float: none;
+            border-bottom: solid 2px #ffffff;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            margin: 0;
+        }        
+
+        #text-block4 {
+            width: 85%;
+            padding: 10px;
+            position: relative;
+            top: 350px;
+            margin: auto;
+            color: #ffffff;
+        }
+
+        iframe {
+            padding: 0px 10px 10px 0px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .one-third {
+            width: 46%;
+            float:left;
+            margin: 2%;
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 1.15em;  
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: .65em;
+        }
+    }

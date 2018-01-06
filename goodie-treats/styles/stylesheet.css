@@ -1,0 +1,653 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+
+/* ========== Browser Reset ========== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	background-color: #000000;    
+    height: 100%;
+}
+
+body {
+    height: 100%;
+	overflow: hidden;
+}
+
+/* ========== Text Settings ========== */
+
+h1 {
+	margin: 0;
+	padding: 0;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 3em;
+    color: #ffffff;
+    text-shadow: 3px 4px 7px #000000;
+    position: relative;
+    top: 75%;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75em;    color: #ffffff;
+    text-shadow: 3px 4px 7px #000000;
+    position: relative;
+    top: 50%;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-style: bold;    
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+p#home-page {
+	font-size: 1em;
+	font-style: italic;
+    color: #ffffff;
+	margin: 15px;
+	position: relative;
+	top: 30%;
+}
+
+p.quoteAuth {
+    text-align: center;
+    font-size: 1.25em;
+    color: #ffffff;
+    position: relative;
+    top: 33%;
+}
+
+p {
+    margin: 0 0 2em 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+/* ========== NAVIGATION 2 ==========*/
+
+header {
+    position: fixed;
+    height: 65px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 16px #222222;
+    z-index: 2000;
+}
+
+.logoDiv {
+    width: 220px;
+    float: left;
+    text-align: center;
+}
+
+header img {
+
+}
+
+ul.nav {
+    list-style-type: none;
+    width: 700px;
+    margin: auto;
+}
+
+ul.nav li {
+    display: inline-block;
+    padding: 20px 27px;
+}
+
+ul.nav li a {
+    color: #000000;
+    font-size: 1em;
+
+}
+
+ul.nav li:hover {
+    background-color: #c884a2;
+}
+
+/* ================================================================== */
+
+/* Setting up our grid */
+.container {
+    width: 100%; /*Set the width of the entire website here */
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto; /* Margin-left and right are set to auto to center the container */
+    padding-left: 12px;
+    background-color: #222222;
+}
+
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child { 
+    margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+
+.eleven {
+    width: 91.5%;
+    float: left;
+    margin-left: 2%;
+}
+
+.ten {
+    width: 83%;
+    float: left;
+    margin-left: 2%;
+}
+
+.nine {
+    width: 74.5%;
+    float: left;
+    margin-left: 2%;
+}
+
+.eight {
+    width: 66%;
+    float: left;
+    margin-left: 2%;
+}
+
+.seven {
+    width: 57.5%;
+    float: left;
+    margin-left: 2%;
+}
+
+.six {
+    width: 49%; /* This div spans six columns (the entire row)*/
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+}
+
+.six-nav {
+    width: 49%; /* This div spans six columns (the entire row)*/
+    height: 100%;
+    float: left;
+    /* margin-left: 1%; */
+}
+
+.five {
+    width: 40.5%; /* This div spans five columns */
+    margin-left: 2%;
+    float:left;
+}
+
+.four {
+    width: 32%;
+    float:left;
+    margin-left: 2%;
+}
+
+.three {
+    width: 24%;
+    height: 100%;
+    float:left;
+    margin-left: 1%;
+    background-color: #a20202;
+}
+
+.three-nav#bl {
+    width: 24%;
+    height: 100%;
+    float:left;
+    margin-left: 0;
+}
+
+.three-nav {
+    width: 24%;
+    height: 100%;
+    float:left;
+    margin-left: 1%;
+}
+
+.two {
+    width: 15%;
+    float:left;
+    margin-left: 2%;
+}
+.one {
+    width: 6.5%;
+    float:left;
+    margin-left: 2%;
+}
+.row {
+    width: 100%;
+    clear: both; /* Clear creates new styles for the next row */
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ================  Specialized Rows  ================================== */
+
+#first {
+	width: 100%;
+	height: 33.33333%;
+	clear: both;
+}
+
+#second {
+	width: 100%;
+	height: 33.33333%;
+	clear: both;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#third {
+	width: 100%;
+	height: 33.33333%;
+	clear: both;
+}
+
+/* ================ End Grid Code ======================= */
+
+.six-nav#tl {
+    background: url(../styles/images/pic4035.JPG) no-repeat center;
+	background-size: cover;
+}
+
+.three-nav#tr {
+    background: url(../styles/images/pic0738.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.three#text2 {
+    background: url(../styles/images/pic0001b.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.six#mm {
+    background: url(../styles/images/gtLOGO1.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.three-nav#mr {
+    background: url(../styles/images/pic5077.JPG) no-repeat center;
+	background-size: cover;
+}
+
+.three-nav#bl {
+    background: url(../styles/images/pic0151.JPG) no-repeat center;
+	background-size: cover;
+}
+
+.three-nav#bml {
+    background: url(../styles/images/pic3564.JPG) no-repeat center;
+	background-size: cover;
+}
+
+.three#bmr {
+    background: url(../styles/images/pic6974.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.three-nav {
+	-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+	transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.three-nav:hover {
+	transform: scale(1.05);
+}
+
+.six-nav {
+	-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+	transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.six-nav:hover {
+	transform: scale(1.03);
+}
+
+.nav-text {
+	opacity: 0;
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.45);
+	text-align: center;
+
+    -webkit-transition: 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out, -moz-transform 0.4s ease-in-out;
+    transition: 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.nav-text:hover {
+	opacity: 1;
+
+    -webkit-transition: 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out, -moz-transform 0.4s ease-in-out;
+    transition: 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.title-text {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#mobile-hp {
+    display: none;
+}
+
+/* ========== Media Query ========== */
+
+/* ---------- 1460px Wide ---------- */
+
+        @media screen 
+        and (max-width: 1460px) 
+        and (orientation: landscape) {
+
+            .six#mm {
+                background: url(../styles/images/gtLOGO1-mw1366.jpg) no-repeat center;
+                background-size: cover;
+            }
+        }
+
+/* ---------- 1040px Wide ---------- */
+
+        @media screen 
+        and (max-width: 1040px) 
+        and (orientation: portrait) {
+
+            .six#mm {
+                background: url(../styles/images/gtLOGO1-mw1040P.jpg) no-repeat center;
+                background-size: cover;
+            }
+        }
+
+/* ---------- 1024px Wide ---------- */
+        
+        @media screen 
+        and (max-width: 1024px) 
+        and (orientation: landscape) {
+
+            p#home-page {
+                font-size: .75em;
+                font-style: italic;
+                color: #ffffff;
+                margin: 15px;
+                position: relative;
+                top: 30%;
+            }
+
+            p.quoteAuth {
+                text-align: center;
+                font-size: 1em;
+                color: #ffffff;
+                position: relative;
+                top: 33%;
+            }
+        }
+
+/* ---------- 800px Wide ---------- */
+
+        @media screen 
+        and (max-width: 800px) 
+        and (orientation: portrait) {
+
+            .six#mm {
+                background: url(../styles/images/gtLOGO1-mw800P.jpg) no-repeat center;
+                background-size: cover;
+            }
+
+            .logoDiv {
+                width: 180px;
+                float: left;
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            .logoDiv img {
+                width: 150px;
+            }
+
+            ul.nav li {
+                padding: 20px 14px;
+            }
+
+            ul.nav li a {
+                font-size: .60em;
+            }
+        }
+
+/* ---------- 740px Wide ---------- */
+
+        @media screen 
+        and (max-width: 740px) 
+        and (orientation: landscape) {            
+
+            p#home-page {
+                font-size: .65em;
+                font-style: italic;
+                color: #ffffff;
+                margin: 15px;
+                position: relative;
+                top: 15%;
+            }
+
+            p.quoteAuth {
+                text-align: center;
+                font-size: .75em;
+                color: #ffffff;
+                position: relative;
+                top: 16%;
+            }
+        }
+
+/* ---------- 420px Wide ---------- */
+
+        @media screen 
+        and (max-width: 420px) 
+        and (orientation: portrait) {
+
+            .container {
+                display: none;
+            }            
+            
+            .burger-nav {
+                position: relative;
+                top: 2px;
+                left: 80%;
+                display: block;
+                height: 60px;
+                width: 75px;
+                background: url("images/burger-menu009b.png") no-repeat center;
+                background-size: 55%;
+                z-index: 3000;
+            }
+
+            header ul {
+                width: 100%;
+            }
+
+            ul {
+                overflow: hidden;
+                background-color: #f2f2f2;
+                height: 0;
+                z-index: 2000;
+
+                -webkit-transition: height .4s;
+                -moz-transition: height .4s;
+                -o-transition: height .4s;
+                transition: height .4s;
+            }
+
+            ul.open {
+                height: 380px;
+            }
+
+            ul li {
+                float: none;
+                border-bottom: solid 2px #ffffff;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            ul li a {
+                text-decoration: none;
+                text-align: center;
+                display: block;
+                margin: 0;
+            }            
+
+            #mobile-hp {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            #spacer {
+                width: 100%;
+                height: 60px;
+                float: left;                
+            }
+
+            #banner-one {
+                width: 100%;
+                height: 20%;
+                float: left;
+            }
+
+            #banner-one-pic {
+                width: 100%;
+            }            
+
+            .text-banner {
+                width: 100%;
+                height: 20%;
+                background-color: #a20202;                
+                float: left;            
+            }            
+
+            #banner-two {
+                width: 100%;
+                height: 20%;
+                float: left;
+            }
+
+            #banner-two-pic {
+                width: 100%;
+            }            
+
+            #mobi-banner2 {
+                text-align: center;
+                padding-top: 15px;
+                width: 100%;
+                height: 12%;
+                float: left;
+            }
+
+            p#home-page {
+                text-align: center;
+                font-size: .9em;
+                font-style: italic;
+                color: #ffffff;
+                position: relative;
+                top: 12%;
+            }
+
+            p.quoteAuth {
+                text-align: center;
+                font-size: 1.15em;
+                color: #ffffff;
+                position: relative;
+                top: 12%;
+            }            
+        }
+
+/* ---------- 375px Wide ---------- */
+
+        @media screen 
+        and (max-width: 375px) 
+        and (orientation: portrait) {
+
+            #banner-one {
+                width: 100%;
+                height: 20%;
+                float: left;
+            }
+
+            .text-banner {
+                width: 100%;
+                height: 20%;
+                background-color: #a20202;                
+                float: left;            
+            }            
+
+            #banner-two {
+                width: 100%;
+                height: 20%;
+                float: left;
+            }
+
+            #mobi-banner2 {
+                text-align: center;
+                padding-top: 8px;
+                width: 100%;
+                height: 12%;
+                float: left;
+            }                   
+        }
+
+/* ---------- 320px Wide (portrait) ---------- */
+
+    @media only screen 
+      and (max-device-width: 320px)
+      and (orientation: portrait) {
+
+        p#home-page {
+            font-size: .85em;
+            font-style: italic;
+            color: #ffffff;
+            margin: 15px;
+            position: relative;
+            top: 10%;
+        }
+
+        p.quoteAuth {
+            text-align: center;
+            font-size: 1em;
+            color: #ffffff;
+            position: relative;
+            top: 10%;
+        }
+
+        #mobi-banner2 {
+            text-align: center;
+            padding-top: 1px;
+            width: 100%;
+            height: 12%;
+            float: left;
+        }        
+    }
